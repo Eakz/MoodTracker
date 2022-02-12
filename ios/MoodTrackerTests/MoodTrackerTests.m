@@ -8,7 +8,6 @@
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
 @interface MoodTrackerTests : XCTestCase
-
 @end
 
 @implementation MoodTrackerTests
