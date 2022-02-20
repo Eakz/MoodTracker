@@ -8,7 +8,7 @@ export const History: React.FC = () => {
   return (
     <View>
       <FlatList
-        data={moodList}
+        data={[...moodList].reverse()}
         renderItem={({item}) => {
           if (item) {
             return <MoodItemRow item={item} />;
